@@ -1,7 +1,8 @@
 #import libraries
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
+#import uvicorn
+import hypercorn
 from typing import Optional
 from pydantic import BaseModel
 from app.database import (
@@ -70,4 +71,4 @@ def search_documents_endpoint(query: str):
 
 # Run the application
 if __name__ == '__main__':
-    uvicorn.run(app, host='localhost', port=8080)
+    hypercorn.run(app, host='localhost', port=8080)

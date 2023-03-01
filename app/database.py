@@ -7,9 +7,9 @@ import datetime
 import os
 
 # Set the environment variable for the google cloud storage bucket
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:/Users/USER/Downloads/My First Project-9b9b9b9b9b9b.json'
+#os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:/Users/USER/Downloads/My First Project-9b9b9b9b9b9b.json'
 # Set the environment variable for the google cloud storage bucket
-os.environ['GOOGLE_CLOUD_PROJECT'] = 'My First Project-9b9b9b9b9b9b'
+#os.environ['GOOGLE_CLOUD_PROJECT'] = 'My First Project-9b9b9b9b9b9b'
 
 # Set the environment variable for the google cloud storage bucket
 bucket_name = 'my-first-bucket-9b9b9b9b9b9b'
